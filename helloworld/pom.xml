@@ -4,7 +4,7 @@
 
   <groupId>com.doublec</groupId>
   <artifactId>helloworld</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>helloworld</name>
@@ -22,4 +22,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <repositories>
+  	<repository>
+  		<id>myMavenRepo.read</id>
+  		<url>https://mymavenrepo.com/repo/zvliaZCJfZY2KWkudphV/</url>
+  	</repository>
+  </repositories>
+  
+  <distributionManagement>
+  	<repository>
+  	<id>myMavenRepo.write</id>
+  	<url>https://mymavenrepo.com/repo/VCH6uYhYci7EXzCWwh3l/</url>
+  	</repository>
+  </distributionManagement>
 </project>
